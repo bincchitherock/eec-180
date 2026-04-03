@@ -4,6 +4,7 @@ spring quarter 2026 &lt;eec 180 lab files>
 - seohan@ucdavis.edu
 
 ## lab 1
+- [lab 1 report](https://docs.google.com/document/d/1KT2oVSxiOpu2G0G1LvucQaTIgcIPEeBYtNYl1De0ObU/edit?tab=t.0#heading=h.vclm2z2bqlbq)
 
 ```terminal
 iverilog -o tb_partI tb_partI.v ../synthesis/partI/partI.v
