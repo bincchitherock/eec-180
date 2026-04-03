@@ -1,0 +1,361 @@
+$date
+	Fri Apr 03 10:10:34 2026
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_partII $end
+$var reg 4 ! count [3:0] $end
+$var wire 1 " HEX0 [7] $end
+$var wire 1 # HEX0 [6] $end
+$var wire 1 $ HEX0 [5] $end
+$var wire 1 % HEX0 [4] $end
+$var wire 1 & HEX0 [3] $end
+$var wire 1 ' HEX0 [2] $end
+$var wire 1 ( HEX0 [1] $end
+$var wire 1 ) HEX0 [0] $end
+$var wire 1 * HEX1 [7] $end
+$var wire 1 + HEX1 [6] $end
+$var wire 1 , HEX1 [5] $end
+$var wire 1 - HEX1 [4] $end
+$var wire 1 . HEX1 [3] $end
+$var wire 1 / HEX1 [2] $end
+$var wire 1 0 HEX1 [1] $end
+$var wire 1 1 HEX1 [0] $end
+$var wire 1 2 HEX2 [7] $end
+$var wire 1 3 HEX2 [6] $end
+$var wire 1 4 HEX2 [5] $end
+$var wire 1 5 HEX2 [4] $end
+$var wire 1 6 HEX2 [3] $end
+$var wire 1 7 HEX2 [2] $end
+$var wire 1 8 HEX2 [1] $end
+$var wire 1 9 HEX2 [0] $end
+$var wire 1 : HEX3 [7] $end
+$var wire 1 ; HEX3 [6] $end
+$var wire 1 < HEX3 [5] $end
+$var wire 1 = HEX3 [4] $end
+$var wire 1 > HEX3 [3] $end
+$var wire 1 ? HEX3 [2] $end
+$var wire 1 @ HEX3 [1] $end
+$var wire 1 A HEX3 [0] $end
+$var wire 1 B HEX4 [7] $end
+$var wire 1 C HEX4 [6] $end
+$var wire 1 D HEX4 [5] $end
+$var wire 1 E HEX4 [4] $end
+$var wire 1 F HEX4 [3] $end
+$var wire 1 G HEX4 [2] $end
+$var wire 1 H HEX4 [1] $end
+$var wire 1 I HEX4 [0] $end
+$var wire 1 J HEX5 [7] $end
+$var wire 1 K HEX5 [6] $end
+$var wire 1 L HEX5 [5] $end
+$var wire 1 M HEX5 [4] $end
+$var wire 1 N HEX5 [3] $end
+$var wire 1 O HEX5 [2] $end
+$var wire 1 P HEX5 [1] $end
+$var wire 1 Q HEX5 [0] $end
+$var wire 1 R KEY [1] $end
+$var wire 1 S KEY [0] $end
+$var wire 1 T LEDR [9] $end
+$var wire 1 U LEDR [8] $end
+$var wire 1 V LEDR [7] $end
+$var wire 1 W LEDR [6] $end
+$var wire 1 X LEDR [5] $end
+$var wire 1 Y LEDR [4] $end
+$var wire 1 Z LEDR [3] $end
+$var wire 1 [ LEDR [2] $end
+$var wire 1 \ LEDR [1] $end
+$var wire 1 ] LEDR [0] $end
+$var wire 1 ^ SW [9] $end
+$var wire 1 _ SW [8] $end
+$var wire 1 ` SW [7] $end
+$var wire 1 a SW [6] $end
+$var wire 1 b SW [5] $end
+$var wire 1 c SW [4] $end
+$var wire 1 d SW [3] $end
+$var wire 1 e SW [2] $end
+$var wire 1 f SW [1] $end
+$var wire 1 g SW [0] $end
+
+$scope module UUT $end
+$var wire 1 " HEX0 [7] $end
+$var wire 1 # HEX0 [6] $end
+$var wire 1 $ HEX0 [5] $end
+$var wire 1 % HEX0 [4] $end
+$var wire 1 & HEX0 [3] $end
+$var wire 1 ' HEX0 [2] $end
+$var wire 1 ( HEX0 [1] $end
+$var wire 1 ) HEX0 [0] $end
+$var wire 1 * HEX1 [7] $end
+$var wire 1 + HEX1 [6] $end
+$var wire 1 , HEX1 [5] $end
+$var wire 1 - HEX1 [4] $end
+$var wire 1 . HEX1 [3] $end
+$var wire 1 / HEX1 [2] $end
+$var wire 1 0 HEX1 [1] $end
+$var wire 1 1 HEX1 [0] $end
+$var wire 1 2 HEX2 [7] $end
+$var wire 1 3 HEX2 [6] $end
+$var wire 1 4 HEX2 [5] $end
+$var wire 1 5 HEX2 [4] $end
+$var wire 1 6 HEX2 [3] $end
+$var wire 1 7 HEX2 [2] $end
+$var wire 1 8 HEX2 [1] $end
+$var wire 1 9 HEX2 [0] $end
+$var wire 1 : HEX3 [7] $end
+$var wire 1 ; HEX3 [6] $end
+$var wire 1 < HEX3 [5] $end
+$var wire 1 = HEX3 [4] $end
+$var wire 1 > HEX3 [3] $end
+$var wire 1 ? HEX3 [2] $end
+$var wire 1 @ HEX3 [1] $end
+$var wire 1 A HEX3 [0] $end
+$var wire 1 B HEX4 [7] $end
+$var wire 1 C HEX4 [6] $end
+$var wire 1 D HEX4 [5] $end
+$var wire 1 E HEX4 [4] $end
+$var wire 1 F HEX4 [3] $end
+$var wire 1 G HEX4 [2] $end
+$var wire 1 H HEX4 [1] $end
+$var wire 1 I HEX4 [0] $end
+$var wire 1 J HEX5 [7] $end
+$var wire 1 K HEX5 [6] $end
+$var wire 1 L HEX5 [5] $end
+$var wire 1 M HEX5 [4] $end
+$var wire 1 N HEX5 [3] $end
+$var wire 1 O HEX5 [2] $end
+$var wire 1 P HEX5 [1] $end
+$var wire 1 Q HEX5 [0] $end
+$var wire 1 R KEY [1] $end
+$var wire 1 S KEY [0] $end
+$var wire 1 T LEDR [9] $end
+$var wire 1 U LEDR [8] $end
+$var wire 1 V LEDR [7] $end
+$var wire 1 W LEDR [6] $end
+$var wire 1 X LEDR [5] $end
+$var wire 1 Y LEDR [4] $end
+$var wire 1 Z LEDR [3] $end
+$var wire 1 [ LEDR [2] $end
+$var wire 1 \ LEDR [1] $end
+$var wire 1 ] LEDR [0] $end
+$var wire 1 ^ SW [9] $end
+$var wire 1 _ SW [8] $end
+$var wire 1 ` SW [7] $end
+$var wire 1 a SW [6] $end
+$var wire 1 b SW [5] $end
+$var wire 1 c SW [4] $end
+$var wire 1 d SW [3] $end
+$var wire 1 e SW [2] $end
+$var wire 1 f SW [1] $end
+$var wire 1 g SW [0] $end
+
+$scope module decoder $end
+$var wire 1 d bin [3] $end
+$var wire 1 e bin [2] $end
+$var wire 1 f bin [1] $end
+$var wire 1 g bin [0] $end
+$var wire 1 " hex0 [7] $end
+$var wire 1 # hex0 [6] $end
+$var wire 1 $ hex0 [5] $end
+$var wire 1 % hex0 [4] $end
+$var wire 1 & hex0 [3] $end
+$var wire 1 ' hex0 [2] $end
+$var wire 1 ( hex0 [1] $end
+$var wire 1 ) hex0 [0] $end
+$var wire 1 * hex1 [7] $end
+$var wire 1 + hex1 [6] $end
+$var wire 1 , hex1 [5] $end
+$var wire 1 - hex1 [4] $end
+$var wire 1 . hex1 [3] $end
+$var wire 1 / hex1 [2] $end
+$var wire 1 0 hex1 [1] $end
+$var wire 1 1 hex1 [0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0)
+0(
+0'
+0&
+0%
+0$
+1#
+1"
+01
+00
+0/
+0.
+0-
+0,
+1+
+1*
+19
+18
+17
+16
+15
+14
+13
+12
+1A
+1@
+1?
+1>
+1=
+1<
+1;
+1:
+1I
+1H
+1G
+1F
+1E
+1D
+1C
+1B
+1Q
+1P
+1O
+1N
+1M
+1L
+1K
+1J
+zS
+zR
+z]
+z\
+z[
+zZ
+zY
+zX
+zW
+zV
+zU
+zT
+0g
+0f
+0e
+0d
+zc
+zb
+za
+z`
+z_
+z^
+$end
+#100
+b1 !
+1g
+1)
+1(
+1'
+1&
+#200
+b10 !
+0g
+1f
+1$
+0#
+0)
+0(
+0&
+#300
+b11 !
+1g
+0'
+1%
+#400
+b100 !
+0g
+0f
+1e
+1)
+1&
+0$
+#500
+b101 !
+1g
+0)
+1(
+0&
+#600
+b110 !
+0g
+1f
+0%
+#700
+b111 !
+1g
+0(
+1&
+1%
+1#
+#800
+b1000 !
+0g
+0f
+0e
+1d
+0&
+0%
+0#
+#900
+b1001 !
+1g
+1%
+#1000
+b1010 !
+0g
+1f
+11
+1.
+1-
+1,
+1#
+0%
+#1100
+b1011 !
+1g
+1)
+1(
+1'
+1&
+#1200
+b1100 !
+0g
+0f
+1e
+1$
+0#
+0)
+0(
+0&
+#1300
+b1101 !
+1g
+0'
+1%
+#1400
+b1110 !
+0g
+1f
+1)
+1&
+0$
+#1500
+b1111 !
+1g
+0)
+1(
+0&
+#1600
+b0 !
