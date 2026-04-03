@@ -17,3 +17,5 @@ iverilog -o tb_partII tb_partII.v ../synthesis/partII/partII.v ../hdl/dec_7seg_d
 vvp tb_partII
 gtkwave tb_partII.vcd
 ```
+
+- must enable WSL (for windows) in order to run test bench files. 
