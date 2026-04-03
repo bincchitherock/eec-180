@@ -1,0 +1,110 @@
+#! /usr/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x57b2786c3100 .scope module, "tb_partI" "tb_partI" 2 1;
+ .timescale 0 0;
+L_0x7ce886eb3018 .functor BUFT 1, C4<11111111>, C4<0>, C4<0>, C4<0>;
+v0x57b2786df370_0 .net "HEX0", 7 0, L_0x7ce886eb3018;  1 drivers
+L_0x7ce886eb3060 .functor BUFT 1, C4<11111111>, C4<0>, C4<0>, C4<0>;
+v0x57b2786df450_0 .net "HEX1", 7 0, L_0x7ce886eb3060;  1 drivers
+L_0x7ce886eb30a8 .functor BUFT 1, C4<11111111>, C4<0>, C4<0>, C4<0>;
+v0x57b2786df4f0_0 .net "HEX2", 7 0, L_0x7ce886eb30a8;  1 drivers
+L_0x7ce886eb30f0 .functor BUFT 1, C4<11111111>, C4<0>, C4<0>, C4<0>;
+v0x57b2786df590_0 .net "HEX3", 7 0, L_0x7ce886eb30f0;  1 drivers
+L_0x7ce886eb3138 .functor BUFT 1, C4<11111111>, C4<0>, C4<0>, C4<0>;
+v0x57b2786df630_0 .net "HEX4", 7 0, L_0x7ce886eb3138;  1 drivers
+L_0x7ce886eb3180 .functor BUFT 1, C4<11111111>, C4<0>, C4<0>, C4<0>;
+v0x57b2786df6d0_0 .net "HEX5", 7 0, L_0x7ce886eb3180;  1 drivers
+o0x7ce886efc138 .functor BUFZ 2, C4<zz>; HiZ drive
+v0x57b2786df7a0_0 .net "KEY", 1 0, o0x7ce886efc138;  0 drivers
+v0x57b2786df870_0 .net "LEDR", 9 0, L_0x57b2786e0a70;  1 drivers
+v0x57b2786df940_0 .net "SW", 9 0, L_0x57b2786dfb90;  1 drivers
+v0x57b2786dfa10_0 .net *"_ivl_3", 1 0, v0x57b2786dfab0_0;  1 drivers
+v0x57b2786dfab0_0 .var "count", 1 0;
+L_0x57b2786dfb90 .part/pv v0x57b2786dfab0_0, 0, 2, 10;
+S_0x57b2786c3290 .scope module, "UUT" "partI" 2 14, 3 6 0, S_0x57b2786c3100;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 8 "HEX0";
+    .port_info 1 /OUTPUT 8 "HEX1";
+    .port_info 2 /OUTPUT 8 "HEX2";
+    .port_info 3 /OUTPUT 8 "HEX3";
+    .port_info 4 /OUTPUT 8 "HEX4";
+    .port_info 5 /OUTPUT 8 "HEX5";
+    .port_info 6 /INPUT 2 "KEY";
+    .port_info 7 /OUTPUT 10 "LEDR";
+    .port_info 8 /INPUT 10 "SW";
+L_0x57b2786dfef0 .functor AND 1, L_0x57b2786dfcc0, L_0x57b2786dfd90, C4<1>, C4<1>;
+L_0x57b2786e0100 .functor OR 1, L_0x57b2786dff90, L_0x57b2786e0030, C4<0>, C4<0>;
+L_0x57b2786e0370 .functor XOR 1, L_0x57b2786e01f0, L_0x57b2786e0290, C4<0>, C4<0>;
+L_0x57b2786e0610 .functor AND 1, L_0x57b2786e0480, L_0x57b2786e0520, C4<1>, C4<1>;
+L_0x57b2786e0780 .functor NOT 1, L_0x57b2786e0610, C4<0>, C4<0>, C4<0>;
+v0x57b278687560_0 .net "HEX0", 7 0, L_0x7ce886eb3018;  alias, 1 drivers
+v0x57b2786b18c0_0 .net "HEX1", 7 0, L_0x7ce886eb3060;  alias, 1 drivers
+v0x57b2786b09c0_0 .net "HEX2", 7 0, L_0x7ce886eb30a8;  alias, 1 drivers
+v0x57b2786afac0_0 .net "HEX3", 7 0, L_0x7ce886eb30f0;  alias, 1 drivers
+v0x57b2786aeb60_0 .net "HEX4", 7 0, L_0x7ce886eb3138;  alias, 1 drivers
+v0x57b2786de200_0 .net "HEX5", 7 0, L_0x7ce886eb3180;  alias, 1 drivers
+v0x57b2786de2e0_0 .net "KEY", 1 0, o0x7ce886efc138;  alias, 0 drivers
+v0x57b2786de3c0_0 .net "LEDR", 9 0, L_0x57b2786e0a70;  alias, 1 drivers
+v0x57b2786de4a0_0 .net "SW", 9 0, L_0x57b2786dfb90;  alias, 1 drivers
+v0x57b2786de610_0 .net *"_ivl_11", 0 0, L_0x57b2786dff90;  1 drivers
+v0x57b2786de6f0_0 .net *"_ivl_13", 0 0, L_0x57b2786e0030;  1 drivers
+v0x57b2786de7d0_0 .net *"_ivl_14", 0 0, L_0x57b2786e0100;  1 drivers
+v0x57b2786de8b0_0 .net *"_ivl_19", 0 0, L_0x57b2786e01f0;  1 drivers
+v0x57b2786de990_0 .net *"_ivl_21", 0 0, L_0x57b2786e0290;  1 drivers
+v0x57b2786dea70_0 .net *"_ivl_22", 0 0, L_0x57b2786e0370;  1 drivers
+v0x57b2786deb50_0 .net *"_ivl_27", 0 0, L_0x57b2786e0480;  1 drivers
+v0x57b2786dec30_0 .net *"_ivl_29", 0 0, L_0x57b2786e0520;  1 drivers
+v0x57b2786ded10_0 .net *"_ivl_3", 0 0, L_0x57b2786dfcc0;  1 drivers
+v0x57b2786dedf0_0 .net *"_ivl_30", 0 0, L_0x57b2786e0610;  1 drivers
+v0x57b2786deed0_0 .net *"_ivl_32", 0 0, L_0x57b2786e0780;  1 drivers
+o0x7ce886efc3d8 .functor BUFZ 6, C4<zzzzzz>; HiZ drive
+; Elide local net with no drivers, v0x57b2786defb0_0 name=_ivl_48
+v0x57b2786df090_0 .net *"_ivl_5", 0 0, L_0x57b2786dfd90;  1 drivers
+v0x57b2786df170_0 .net *"_ivl_6", 0 0, L_0x57b2786dfef0;  1 drivers
+L_0x57b2786dfcc0 .part L_0x57b2786dfb90, 0, 1;
+L_0x57b2786dfd90 .part L_0x57b2786dfb90, 1, 1;
+L_0x57b2786dff90 .part L_0x57b2786dfb90, 0, 1;
+L_0x57b2786e0030 .part L_0x57b2786dfb90, 1, 1;
+L_0x57b2786e01f0 .part L_0x57b2786dfb90, 0, 1;
+L_0x57b2786e0290 .part L_0x57b2786dfb90, 1, 1;
+L_0x57b2786e0480 .part L_0x57b2786dfb90, 0, 1;
+L_0x57b2786e0520 .part L_0x57b2786dfb90, 1, 1;
+LS_0x57b2786e0a70_0_0 .concat [ 1 1 1 1], L_0x57b2786dfef0, L_0x57b2786e0100, L_0x57b2786e0370, L_0x57b2786e0780;
+LS_0x57b2786e0a70_0_4 .concat [ 6 0 0 0], o0x7ce886efc3d8;
+L_0x57b2786e0a70 .concat [ 4 6 0 0], LS_0x57b2786e0a70_0_0, LS_0x57b2786e0a70_0_4;
+    .scope S_0x57b2786c3100;
+T_0 ;
+    %pushi/vec4 0, 0, 2;
+    %store/vec4 v0x57b2786dfab0_0, 0, 2;
+    %pushi/vec4 4, 0, 32;
+T_0.0 %dup/vec4;
+    %pushi/vec4 0, 0, 32;
+    %cmp/s;
+    %jmp/1xz T_0.1, 5;
+    %jmp/1 T_0.1, 4;
+    %pushi/vec4 1, 0, 32;
+    %sub;
+    %delay 100, 0;
+    %vpi_call 2 22 "$display", "SW[1:0] = %b | AND=%b  OR=%b  XOR=%b  NAND=%b", v0x57b2786dfab0_0, &PV<v0x57b2786df870_0, 0, 1>, &PV<v0x57b2786df870_0, 1, 1>, &PV<v0x57b2786df870_0, 2, 1>, &PV<v0x57b2786df870_0, 3, 1> {0 0 0};
+    %load/vec4 v0x57b2786dfab0_0;
+    %addi 1, 0, 2;
+    %store/vec4 v0x57b2786dfab0_0, 0, 2;
+    %jmp T_0.0;
+T_0.1 ;
+    %pop/vec4 1;
+    %vpi_call 2 26 "$stop" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_partI.v";
+    "../synthesis/partI/partI.v";

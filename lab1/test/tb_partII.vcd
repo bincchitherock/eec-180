@@ -1,0 +1,190 @@
+$date
+	Fri Apr  3 10:40:54 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_partII $end
+$var wire 8 ! HEX2 [7:0] $end
+$var wire 8 " HEX3 [7:0] $end
+$var wire 8 # HEX4 [7:0] $end
+$var wire 8 $ HEX5 [7:0] $end
+$var wire 2 % KEY [1:0] $end
+$var wire 10 & LEDR [9:0] $end
+$var wire 10 ' SW [9:0] $end
+$var wire 8 ( HEX1 [7:0] $end
+$var wire 8 ) HEX0 [7:0] $end
+$var reg 4 * count [3:0] $end
+$scope module UUT $end
+$var wire 8 + HEX2 [7:0] $end
+$var wire 8 , HEX3 [7:0] $end
+$var wire 8 - HEX4 [7:0] $end
+$var wire 8 . HEX5 [7:0] $end
+$var wire 2 / KEY [1:0] $end
+$var wire 10 0 LEDR [9:0] $end
+$var wire 10 1 SW [9:0] $end
+$var wire 8 2 HEX1 [7:0] $end
+$var wire 8 3 HEX0 [7:0] $end
+$scope module decoder $end
+$var wire 4 4 bin [3:0] $end
+$var wire 8 5 hex1 [7:0] $end
+$var wire 8 6 hex0 [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11000000 6
+b11000000 5
+b0 4
+b11000000 3
+b11000000 2
+bz0000 1
+bz 0
+bz /
+b11111111 .
+b11111111 -
+b11111111 ,
+b11111111 +
+b0 *
+b11000000 )
+b11000000 (
+bz0000 '
+bz &
+bz %
+b11111111 $
+b11111111 #
+b11111111 "
+b11111111 !
+$end
+#100
+b11001111 )
+b11001111 3
+b11001111 6
+b1 4
+bz0001 '
+bz0001 1
+b1 *
+#200
+b10100100 )
+b10100100 3
+b10100100 6
+b10 4
+bz0010 '
+bz0010 1
+b10 *
+#300
+b10110000 )
+b10110000 3
+b10110000 6
+b11 4
+bz0011 '
+bz0011 1
+b11 *
+#400
+b10011001 )
+b10011001 3
+b10011001 6
+b100 4
+bz0100 '
+bz0100 1
+b100 *
+#500
+b10010010 )
+b10010010 3
+b10010010 6
+b101 4
+bz0101 '
+bz0101 1
+b101 *
+#600
+b10000010 )
+b10000010 3
+b10000010 6
+b110 4
+bz0110 '
+bz0110 1
+b110 *
+#700
+b11011000 )
+b11011000 3
+b11011000 6
+b111 4
+bz0111 '
+bz0111 1
+b111 *
+#800
+b10000000 )
+b10000000 3
+b10000000 6
+b1000 4
+bz1000 '
+bz1000 1
+b1000 *
+#900
+b10010000 )
+b10010000 3
+b10010000 6
+b1001 4
+bz1001 '
+bz1001 1
+b1001 *
+#1000
+b11000000 )
+b11000000 3
+b11000000 6
+b11111001 (
+b11111001 2
+b11111001 5
+b1010 4
+bz1010 '
+bz1010 1
+b1010 *
+#1100
+b11001111 )
+b11001111 3
+b11001111 6
+b1011 4
+bz1011 '
+bz1011 1
+b1011 *
+#1200
+b10100100 )
+b10100100 3
+b10100100 6
+b1100 4
+bz1100 '
+bz1100 1
+b1100 *
+#1300
+b10110000 )
+b10110000 3
+b10110000 6
+b1101 4
+bz1101 '
+bz1101 1
+b1101 *
+#1400
+b10011001 )
+b10011001 3
+b10011001 6
+b1110 4
+bz1110 '
+bz1110 1
+b1110 *
+#1500
+b10010010 )
+b10010010 3
+b10010010 6
+b1111 4
+bz1111 '
+bz1111 1
+b1111 *
+#1600
