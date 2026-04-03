@@ -10,10 +10,10 @@ spring quarter 2026 &lt;eec 180 lab files>
 - tb_partII.v (for part II)
 
 ```terminal
-{iverilog -o tb_partI tb_partI.v ../synthesis/partI/partI.v
+iverilog -o tb_partI tb_partI.v ../synthesis/partI/partI.v
 vvp tb_partI
 
 iverilog -o tb_partII tb_partII.v ../synthesis/partII/partII.v ../hdl/dec_7seg_decoder.v
 vvp tb_partII
-gtkwave tb_partII.vcd}
+gtkwave tb_partII.vcd
 ```
