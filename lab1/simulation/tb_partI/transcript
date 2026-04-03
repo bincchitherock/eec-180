@@ -1,0 +1,49 @@
+# Compile of tb_partI.v was successful.
+# Compile of partI.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_partI
+# vsim -gui work.tb_partI 
+# Start time: 10:13:09 on Apr 03,2026
+# Loading work.tb_partI
+# Loading work.partI
+add wave -position insertpoint  \
+sim:/tb_partI/HEX0
+add wave -position insertpoint  \
+sim:/tb_partI/HEX1
+add wave -position insertpoint  \
+sim:/tb_partI/SW
+add wave -position insertpoint  \
+sim:/tb_partI/LEDR
+run
+# SW[1:0] = 00 | AND=0  OR=0  XOR=0  NAND=1
+run -all
+# SW[1:0] = 01 | AND=0  OR=1  XOR=1  NAND=1
+# SW[1:0] = 10 | AND=0  OR=1  XOR=1  NAND=1
+# SW[1:0] = 11 | AND=1  OR=1  XOR=0  NAND=0
+# ** Note: $stop    : C:/UC_Davis/EEC180/lab1/test/tb_partI.v(26)
+#    Time: 400 ps  Iteration: 0  Instance: /tb_partI
+# Break in Module tb_partI at C:/UC_Davis/EEC180/lab1/test/tb_partI.v line 26
+# Compile of tb_partI.v was successful.
+# Compile of partI.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_partI
+# End time: 10:14:44 on Apr 03,2026, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_partI 
+# Start time: 10:14:44 on Apr 03,2026
+# Loading work.tb_partI
+# Loading work.partI
+add wave -position insertpoint  \
+sim:/tb_partI/LEDR
+add wave -position insertpoint  \
+sim:/tb_partI/SW
+run -all
+# SW[1:0] = 00 | AND=0  OR=0  XOR=0  NAND=1
+# SW[1:0] = 01 | AND=0  OR=1  XOR=1  NAND=1
+# SW[1:0] = 10 | AND=0  OR=1  XOR=1  NAND=1
+# SW[1:0] = 11 | AND=1  OR=1  XOR=0  NAND=0
+# ** Note: $stop    : C:/UC_Davis/EEC180/lab1/test/tb_partI.v(26)
+#    Time: 400 ps  Iteration: 0  Instance: /tb_partI
+# Break in Module tb_partI at C:/UC_Davis/EEC180/lab1/test/tb_partI.v line 26
+# End time: 10:44:36 on Apr 03,2026, Elapsed time: 0:29:52
+# Errors: 0, Warnings: 0
