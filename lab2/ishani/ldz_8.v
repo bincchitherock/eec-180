@@ -15,11 +15,8 @@ module ldz_8 (
         .SW(SW[3:0]),
         .LEDR(lz_lower)
     );
-
-    // lz_upper == 3'b100 means SW[7:4] is all zeros.
     assign upper_is_zero = lz_upper[2];
 
-    // If upper nibble is non-zero, result is lz_upper (0..3).
-    // If upper nibble is zero, result is 4 + lz_lower (4..8).
+    //conditional statement
     assign LEDR = upper_is_zero ? ({1'b0, lz_lower} + 4'd4) : {1'b0, lz_upper};
 endmodule
