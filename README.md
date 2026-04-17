@@ -6,9 +6,11 @@ spring quarter 2026 &lt;eec 180 lab files>
 ## lab 1
 - [lab 1 report](https://docs.google.com/document/d/1KT2oVSxiOpu2G0G1LvucQaTIgcIPEeBYtNYl1De0ObU/edit?tab=t.0#heading=h.vclm2z2bqlbq)
 
+## lab 2
+- [lab 2 report](https://docs.google.com/document/d/1qQW_QElm1-KmwYHS8jt1ZJ8Oh5e3TiFkrshP6WbBmNY/edit?usp=sharing)
+
 to run simulations in modelsim's terminal: 
 ```terminal
-
 vlog "C:/Users/binyh/OneDrive/Desktop/fulladder.v"
 vlog "C:/Users/binyh/OneDrive/Desktop/8bit_fuladder.v"
 vlog "C:/Users/binyh/OneDrive/Desktop/eightbit_fuladder_tb.v"
