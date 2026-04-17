@@ -19,10 +19,8 @@ vsim eightbit_fuladder_tb
 run -all
 ```
 
-to run: 
+to run simulations in vs code's terminal:
 ```terminal
-\\ must enable wsl (WSL for windows) in order to run test bench files in VS Code. i.e.,
-
 wsl
 cd /mnt/c/Users/binyh/OneDrive/Desktop 
 iverilog -o ldz_4_sim ldz_4.v ldz_4_tb.v
